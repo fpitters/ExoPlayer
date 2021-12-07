@@ -1,5 +1,12 @@
 # Release notes
 
+### 2.16.1 - superfix
+
+    *   Sleep and retry when creating a `MediaCodec` instance fails. This works
+        around an issue that occurs on some devices when switching a surface
+        from a secure codec to another codec
+        (#8696)[https://github.com/google/ExoPlayer/issues/8696].
+
 ### 2.16.1 (2021-11-18)
 
 *   Core Library:
